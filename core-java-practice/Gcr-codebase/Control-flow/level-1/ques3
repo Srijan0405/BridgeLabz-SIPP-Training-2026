@@ -1,0 +1,12 @@
+public class DistanceConverter {
+
+    public static void main(String[] args) {
+        double distanceInKilometers = 10.8;
+        double kilometersToMilesFactor = 1.6;
+
+        double distanceInMiles = distanceInKilometers * kilometersToMilesFactor;
+
+        System.out.println("The distance " + distanceInKilometers
+                + " km in miles is " + distanceInMiles);
+    }
+}
